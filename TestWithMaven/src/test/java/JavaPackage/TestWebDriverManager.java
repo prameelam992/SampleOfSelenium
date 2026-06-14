@@ -13,6 +13,7 @@ public class TestWebDriverManager {
 	@Test
 	public void a() {
 		System.out.println("First change");
+		System.out.println("3rd change");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
